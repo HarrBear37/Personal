@@ -13,11 +13,7 @@
                 background-size: cover;
             }
             nav {
-            text-align: center;
-            background-color: Snow;
-            font-size: 250%;
-            margin-left: 200px;
-            margin-right: 200px;
+            
             }
             h1 {
             text-align: center;
@@ -28,18 +24,52 @@
             .textBox {
             background-color: Snow;
             text-align: left;
+            padding: 2em;
             margin-block: 100px;
             margin-left: 100px;
             margin-right:100px;
+            }
+            .CharacterChart {
+            text-align: center;
+            font-size: 150%;
+            }
+            .links {
+            text-align: center;
+            background-color: Snow;
+            font-size: 250%;
+            margin-left: 200px;
+            margin-right: 200px;
+            }
+            .characterBox {
+            padding-right: 2em;
+            padding-left:2em;
+            background-color: LightGray;
+            border: 1px;
+            border-style: solid;
+            border-color: black;
+            }
         </style>
     </head>
     <body>
-        <nav>
+        <nav class="links">
             <a href="personal_page.xhtml">Home</a>|
             <a  href="personal_death_wish.xhtml"> Death Wish</a>|
             <a href="personal_free_will.xhtml">Free Will</a>|
             <a href="personal_tales_of_a_relic.xhtml">Tales of a Relic</a>|
             <a href="personal_short_stories.xhtml">Short Stories</a>
         </nav>
+        <div class="textBox">
+            <h1>Story</h1>
+            <hr></hr>
+            <p>Here is what the first chapter will be about! Stay tuned!</p>
+            <h1>Characters</h1>
+            <nav class="CharacterChart">
+                <a class="characterBox">William</a>
+                <a class="characterBox">Isaac</a>
+                <a class="characterBox">Dr. Damien King</a>
+                <a class="characterBox">Caleb</a>
+                <a class="characterBox">Donovan King</a>
+            </nav>
+        </div>
     </body>
 </html>
