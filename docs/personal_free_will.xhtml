@@ -41,12 +41,31 @@
             margin-right: 200px;
             }
             .characterBox {
+            height: 20px;
+            width: 1em;
             padding-right: 2em;
             padding-left:2em;
             background-color: LightGray;
             border: 1px;
+            border-radius: 8px;
             border-style: solid;
             border-color: black;
+            }
+            table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            th,td {
+            border: 1px solid black;
+            text-align: center;
+            background-color: LightGray;
+            font-size: 140%;
+            }
+            table.a {
+            table-layout: fixed;
+            width: 55em;
             }
         </style>
     </head>
@@ -62,14 +81,17 @@
             <h1>Story</h1>
             <hr></hr>
             <p>Here is what the first chapter will be about! Stay tuned!</p>
+            <hr></hr>
             <h1>Characters</h1>
-            <nav class="CharacterChart">
-                <a class="characterBox">William</a>
-                <a class="characterBox">Isaac</a>
-                <a class="characterBox">Dr. Damien King</a>
-                <a class="characterBox">Caleb</a>
-                <a class="characterBox">Donovan King</a>
-            </nav>
+            <table class="a">
+                <tr>
+                    <td>William</td>
+                    <td>Isaac</td>
+                    <td>Dr. Damien King</td>
+                    <td>Caleb</td>
+                    <td>Donovan King</td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
