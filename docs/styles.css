@@ -1,3 +1,88 @@
-body{
-    background-image: url("chainsaw_man_green_rainbow.jpg");
+body {
+    background-attachment: fixed;
+    background-size: cover;
+}
+body.home {
+    background-image: url("https://images3.alphacoders.com/136/thumb-1920-1365598.jpeg");
+}
+body.dw {
+    background-image: url("https://i.etsystatic.com/27752033/r/il/ea132b/4285498691/il_300x300.4285498691_o8gc.jpg");
+}
+body.fw {
+    background-image: url("https://t4.ftcdn.net/jpg/03/42/24/53/360_F_342245307_UdSVN5fkd3DrXdadZOgPkA2EMznnmPA7.jpg");
+}
+body.ss{
+    background-image: url("https://as1.ftcdn.net/v2/jpg/01/31/96/22/1000_F_131962244_BULspvcEiXMI2wqhfxxZ8ST7YRStAToC.jpg");
+}
+body.toar{
+    background-image: url("https://pm1.aminoapps.com/6358/d6cb1b6cf0e019b275994651d2aeafc9d2367ce7_00.jpg");
+}
+nav {
+    text-align: center;
+    background-color: Snow;
+    font-size: 250%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+img {
+    width: 25%;
+}
+img.characterImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 120%;
+}
+.textBox {
+    background-color: Snow;
+    text-align: left;
+    padding: 2em;
+    margin-block: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.CharacterChart {
+    text-align: center;
+    font-size: 150%;
+}
+.links {
+    text-align: center;
+    background-color: Snow;
+    font-size: 250%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.characterBox {
+    height: 20px;
+    width: 1em;
+    padding-right: 2em;
+    padding-left:2em;
+    background-color: LightGray;
+    border: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.a {
+    table-layout: fixed;
+    width: 55em;
+}
+th,td {
+    border: 1px solid black;
+    text-align: center;
+    background-color: LightGray;
+    font-size: 140%;
 }
