@@ -1,0 +1,112 @@
+body.h{
+    background-color:#993333;
+}
+body.p{
+    background-color:#000099;
+}
+nav {
+    margin: auto;
+    display:flex;
+}
+nav a.h {
+    color: white;
+    background-color:#800000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a.h:hover{
+    background-color:#990000;
+}
+nav a.p {
+    color: white;
+    background-color:#00004d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a.p:hover{
+    background-color:#000066;
+}
+h1.h {
+    text-align:center;
+    background-color:#e6e6e6;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#cc7a00;
+}
+h2.h {
+    text-align:center;
+    background-color:#e6e6e6;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#cc7a00;
+}
+hr.p{
+    height:1px;
+    border-width:0;
+    color:#330000;
+    background-color:#330000;
+}
+h1.p{
+    text-align:center;
+    background-color:#e6e6e6;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#00004d;
+}
+h2.p{
+    text-align:center;
+    background-color:#e6e6e6;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#00004d;
+}
+hr.p{
+    height:1px;
+    border-width:0;
+    color:#00004d;
+    background-color:#00004d;
+}
+div.textBoxH{
+    background-color:#ff9933;
+    text-align: left;
+    padding: 2em;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#cc7a00;
+    margin-block: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+div.textBoxP{
+    background-color:#5353c6;
+    text-align: left;
+    padding: 2em;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#3939ac;
+    margin-block: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+div p.boxH{
+    background-color:#e6e6e6;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#cc7a00;
+}
+div p.boxP{
+    background-color:#e6e6e6;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#3939ac;
+}
