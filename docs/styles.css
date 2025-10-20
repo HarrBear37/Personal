@@ -2,7 +2,7 @@ body.h{
     background-color:#993333;
 }
 body.p{
-    background-color:#000099;
+    background-color:#d9d9d9;
 }
 nav {
     margin: auto;
@@ -20,13 +20,13 @@ nav a.h:hover{
 }
 nav a.p {
     color: white;
-    background-color:#00004d;
+    background-color:#000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 nav a.p:hover{
-    background-color:#000066;
+    background-color:#404040;
 }
 h1.h {
     text-align:center;
@@ -44,33 +44,12 @@ h2.h {
     border-width: 3px;
     border-color:#cc7a00;
 }
-hr.p{
-    height:1px;
-    border-width:0;
-    color:#330000;
-    background-color:#330000;
-}
-h1.p{
-    text-align:center;
-    background-color:#e6e6e6;
-    padding:3px 5px;
-    border-style:outset;
-    border-width: 3px;
-    border-color:#00004d;
-}
-h2.p{
-    text-align:center;
-    background-color:#e6e6e6;
-    padding:3px 5px;
-    border-style:outset;
-    border-width: 3px;
-    border-color:#00004d;
-}
-hr.p{
-    height:1px;
-    border-width:0;
-    color:#00004d;
-    background-color:#00004d;
+p.basic {
+    font-size:18px;
+    font-family: Garamond, regular;
+    margin-right:100px;
+    margin-left:100px;
+    
 }
 div.textBoxH{
     background-color:#ff9933;
@@ -85,16 +64,16 @@ div.textBoxH{
     margin-right:100px;
 }
 div.textBoxP{
-    background-color:#5353c6;
+    background-color:#ffff;
     text-align: left;
     padding: 2em;
     padding:3px 5px;
     border-style:outset;
     border-width: 3px;
-    border-color:#3939ac;
+    border-color:#bfbfbf;
     margin-block: 100px;
-    margin-left: 100px;
-    margin-right:100px;
+    margin-left: 200px;
+    margin-right:200px;
 }
 div p.boxH{
     background-color:#e6e6e6;
@@ -103,10 +82,33 @@ div p.boxH{
     border-width: 3px;
     border-color:#cc7a00;
 }
-div p.boxP{
-    background-color:#e6e6e6;
-    padding:3px 5px;
-    border-style:outset;
-    border-width: 3px;
-    border-color:#3939ac;
+figure.p {
+    display:block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+img.picNorm {
+    width: 50%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+img.picVert {
+    width: 35%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+iframe {
+    width:1280px;
+    height:720px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+figcaption {
+    text-align:center;
+    font-family: Garamond, regular;
 }
