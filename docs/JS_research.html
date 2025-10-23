@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script type="text/javascript" src="focusChanger.js"></script>
+    </head>
+    <body class="p">
+        <nav>
+            <a href="index.html" class="p">Home</a>
+            <a href="photoProject.html" class="p">Behrend Fields</a>
+            <a href="JS_research.html" class="p">Research</a>
+        </nav>
+        <div class="textBoxJ">
+            <h1 class="j">Accessiblility Issues With JavaScript</h1>
+            <p class="basicW">Many websites are made with what is believed to be the common reader in mind, the mouse user. Although, the majority of readers have disabilities that inhibit their way of navigating the Web. These readers use keyboards or screen readers. Unfortunately, these readers struggle to navigate websites because they are made without them in mind.</p>
+            <p class="basicW">Plenty of frustration comes from focus management. This is caused when web designers remove focus indicators from the browser. </p>
+            <p class="basicW">Example:</p>
+            <pre>:focus {
+outline: none;
+}</pre>
+            <button type="button" id="off">Turn off</button>
+            <button type="button" id="on">Turn on</button>
+            <input type="text" id="focus">
+            <p class="basicW">Just keep it on! It's a simple fix. It can further assist by changing the color or thickness of the bubble.</p>
+            <pre>input:focus {
+  background-color: yellow;
+  width: 250px;
+}</pre>
+            <button type="button" id="red">Red</button>
+            <button type="button" id="blue">Blue</button>
+            <button type="button" id="green">Green</button>|
+            <button type="button" id="thin">Thin</button>
+            <button type="button" id="reg">Regular</button>
+            <button type="button" id="thick">Thick</button>
+            <p class="basicW">Focus Traps occurs when readers are unable to focus outside of a modal. But without proper testing, the user can leave the modal. To prevent this, the designer must test the site by tabbing through it. A proper modal will return focus to the first element of the site. </p>
+            <p class="basicW">Something to keep in mind is what will be first focused on first when loading the page or a dynamic refresh. This could be the title of an article, modal, or notification. As always, issues may arise. The focus must change to the most relevant content on the page.  </p>
+            <p class="basicW">While tabbing through a page, the page should have a flow. To prevent confusion, the designer must make the Focus Order go through the most important elements. Keep it predictable! </p>
+            <p class="basicW">It is important to keep the reader in mind when creating a site. These simple solutions bring accessibility and appreciation to keyboard users and screen readers. The Web has so much valuable information, why should we deny it to those with disabilities? </p>
+        </div>
+    </body>
+</html>

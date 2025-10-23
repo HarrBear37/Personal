@@ -36,6 +36,7 @@ h1.h {
     border-width: 3px;
     border-color:#cc7a00;
 }
+
 h2.h {
     text-align:center;
     background-color:#e6e6e6;
@@ -44,12 +45,32 @@ h2.h {
     border-width: 3px;
     border-color:#cc7a00;
 }
-p.basic {
+h1.p{
+    text-align:center;
+    color:#FFFFFF;
+}
+h2.p{
+    text-align:center;
+    color:#FFFFFF;
+}
+h1.j{
+    text-align:center;
+}
+h2.j{
+    text-align:center;
+}
+p.basicB {
+    font-size:18px;
+    font-family: Garamond, regular;
+    color: #FFFFFF;
+    margin-right:100px;
+    margin-left:100px;
+}
+p.basicW {
     font-size:18px;
     font-family: Garamond, regular;
     margin-right:100px;
     margin-left:100px;
-    
 }
 div.textBoxH{
     background-color:#ff9933;
@@ -64,7 +85,19 @@ div.textBoxH{
     margin-right:200px;
 }
 div.textBoxP{
-    background-color:#ffff;
+    background-color:#000000;
+    text-align: left;
+    padding: 2em;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#bfbfbf;
+    margin-block: 100px;
+    margin-left: 200px;
+    margin-right:200px;
+}
+div.textBoxJ{
+    background-color:#FFFFFF;
     text-align: left;
     padding: 2em;
     padding:3px 5px;
@@ -114,4 +147,10 @@ iframe {
 figcaption {
     text-align:center;
     font-family: Garamond, regular;
+}
+pre {
+    display:block;
+    background-color:#d9d9d9;
+    margin-left:100px;
+    margin-right:100px;
 }
