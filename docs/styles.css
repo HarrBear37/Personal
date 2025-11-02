@@ -2,6 +2,9 @@ body.h{
     background-color:#993333;
 }
 body.p{
+    background-color:#1a1a1a;
+}
+body.j{
     background-color:#d9d9d9;
 }
 nav {
@@ -26,6 +29,16 @@ nav a.p {
     text-decoration: none;
 }
 nav a.p:hover{
+    background-color:#404040;
+}
+nav a.j {
+    color: white;
+    background-color:#000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a.j:hover{
     background-color:#404040;
 }
 h1.h {
