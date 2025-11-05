@@ -70,7 +70,14 @@ h1.j{
     text-align:center;
 }
 h2.j{
-    text-align:center;
+    text-align:left;
+    font-family: Garamond, regular;
+    margin-right:100px;
+    margin-left:100px;
+}
+hr.j{
+    margin-right:100px;
+    margin-left:100px;
 }
 p.basicB {
     font-size:18px;
@@ -166,4 +173,10 @@ pre {
     background-color:#d9d9d9;
     margin-left:100px;
     margin-right:100px;
+}
+ul.j{
+    list-style-type: none;
+    margin-left: 100px;
+    font-family: Garamond, regular;
+    font-size: 18px;
 }
