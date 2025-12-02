@@ -1,0 +1,24 @@
+:focus{
+    outline: 4px solid grey;
+}
+.off:focus {
+    outline: none;
+}
+.on:focus{
+    outline: 2px solid green
+}
+.red:focus {
+    outline: 4px solid red
+}
+.green:focus {
+    outline: 4px solid green
+}
+.blue:focus {
+    outline: 4px solid blue
+}
+.thin:focus {
+    outline: 2px solid grey
+}
+.thick:focus {
+    outline: 6px solid grey
+}
