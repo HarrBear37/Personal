@@ -16,8 +16,8 @@
         </nav>
         <div class="textBoxJ">
             <h1 class="j">Accessibility Issues With JavaScript</h1>
-            <p class="basicW">Many websites are made with what is believed to be the common reader in mind, the mouse user. Although, the majority of readers, this being 89.9%, according to  <a href="https://webaim.org/projects/screenreadersurvey10" tabindex="4" id="WAIM">WebAIM</a>, have disabilities that inhibit their way of navigating the Web. These readers use keyboards or screen readers. Unfortunately, these readers struggle to navigate websites because they are made without them in mind.</p>
-            <p class="basicW">The goal of this website is to show the mouse users how it is to navigate with their keyboards. For each of these sections, you will see the most common problems that arise.</p>
+            <p class="basicW">A majority of websites are developed with what is believed to be the common reader, the mouse user. Although, the majority of readers, this being 89.9%, according to  <a href="https://webaim.org/projects/screenreadersurvey10" tabindex="4" id="WAIM">WebAIM</a>, have disabilities that inhibit their way of navigating the Web. These readers use keyboards or screen readers. Unfortunately, these readers struggle to navigate websites because they are made without them in mind.</p>
+            <p class="basicW">The goal of this website is to show the mouse users how it is to navigate with their keyboards. For each of these sections, you will see the most common problems that arise.</p>\
             <ul class="j">
                 <li class="j"><a href="#FI" tabindex="5" id="AFI">Focus Indicators</a></li>
                 <li class="j"><a href="#FT" tabindex="6" id="AFT">Focus Traps</a></li>
@@ -25,6 +25,7 @@
                 <li class="j"><a href="#FO" tabindex="8" id="AFO">Focus Order</a></li>
                 <li class="j"><a href="#con" tabindex="9" id="Acon">Conclusion</a></li>
             </ul>
+            <p class="basicW">Please note that this is an interactive guide. I recommend practicing tabbing through this site. To do this, hit the tab key to move forward. CTRL + tab will move backwards. And enter will interact the button being focused.</p>
             <h2 class="j" id="FI" tabindex="10">Focus Indicators</h2>
             <hr class="j">
             <p class="basicW">Plenty of frustration comes from focus management. This is caused when web designers remove focus indicators from the browser. </p>
@@ -32,31 +33,38 @@
             <pre>:focus {
 outline: none;
 }</pre>
-            <button type="button" class="on" tabindex="11" id="TO">Turn off</button>
+            <div class="inIt">
+                <button type="button" class="on" tabindex="11" id="TO">Turn off</button>
+            </div>
             <p class="basicW">Just keep it on! It's a simple fix. It can further assist by changing the color or thickness of the bubble.</p>
-            <pre>:focus {
-  background-color: yellow;
-  width: 250px;
-}</pre>
-            <button type="button" class="n" tabindex="12" id="RB">Red</button>
-            <button type="button" class="n" tabindex="13" id="BB">Blue</button>
-            <button type="button" class="n" tabindex="14" id="GB">Green</button> |
-            <button type="button" class="n" tabindex="15" id="TB">Thin</button>
-            <button type="button" class="n" tabindex="16" id="RegB">Regular</button>
-            <button type="button" class="n" tabindex="17" id="ThB">Thick</button>
+            <pre>
+.red:focus {
+    outline: 4px solid red
+}
+</pre>
+            <div class="inIt">
+                <button type="button" class="n" tabindex="12" id="RB">Red</button>
+                <button type="button" class="n" tabindex="13" id="BB">Blue</button>
+                <button type="button" class="n" tabindex="14" id="GB">Green</button> |
+                <button type="button" class="n" tabindex="15" id="TB">Thin</button>
+                <button type="button" class="n" tabindex="16" id="RegB">Regular</button>
+                <button type="button" class="n" tabindex="17" id="ThB">Thick</button>
+            </div>
             <p class="basicW">For further information about <code>:focus</code> go to <a href="https://www.sarasoueidan.com/blog/focus-indicators" tabindex="18" id="WCAG">A guide to designing accessible, WCAG-conformant focus indicators</a>
             <h2 class="j" id="FT" tabindex="19">Focus Traps</h2>
             <hr class="j">
             <p class="basicW">Focus Traps occurs when readers are unable to leave a modal. But without proper testing, the user can leave the modal. To prevent this, the designer must test the site by tabbing through it. A proper modal will return focus to the first element of the site. </p>
             <h2 class="j" id="DR" tabindex="20">Dynamic Refresh</h2>
             <hr class="j">
-            <p class="basicW">Something to keep in mind is what will be first focused on first when loading the page or a dynamic refresh. This could be the title of an article, modal, or notification. As always, issues may arise. The focus must change to the most relevant content on the page.  </p>
+            <p class="basicW">During the development stage, keep in mind what is focused on first after a dynamic refresh. This could be the title of an article, modal, or notification. As always, issues may arise. The focus must change to the most relevant content on the page.  </p>
             <h2 class="j" id="FO" tabindex="21">Focus Order</h2>
             <hr class="j"> 
             <p class="basicW">While tabbing through a page, there should be a flow to it. To prevent confusion, the designer must make the Focus Order go through the most important elements. Keep it predictable! </p>
-            <p class="basicW">The first button will change the Focus Order. And the latter will return it to the original. NOTE: draft stage only wrong works</p>
-             <button type="button" id="wrong" tabindex="22">Wrong</button>
-             <button type="button" id="right" tabindex="23">Right</button>
+            <p class="basicW">The first button will change the Focus Order. And the latter will return it to the original.</p>
+            <div class="inIt">
+                <button type="button" id="wrong" tabindex="22">Wrong</button>
+                <button type="button" id="right" tabindex="23">Right</button>
+            </div>
             <h2 class="j" id="con" tabindex="24">Conclusion</h2>
             <hr class="j">
             <p class="basicW">It is important to keep the reader in mind when creating a site. These simple solutions bring accessibility and appreciation to keyboard users and screen readers. The Web has so much valuable information, why should we deny it to those with disabilities? </p>

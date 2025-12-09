@@ -19,6 +19,9 @@
 .thin:focus {
     outline: 2px solid grey
 }
+.reg:focus {
+    outline: 4px solid grey
+}
 .thick:focus {
     outline: 6px solid grey
 }

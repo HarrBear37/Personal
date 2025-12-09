@@ -7,6 +7,9 @@ body.p{
 body.j{
     background-color:#d9d9d9;
 }
+div.inIt {
+    margin-left:100px;
+}
 nav {
     margin: auto;
     display:flex;
@@ -127,6 +130,7 @@ div.textBoxJ{
     margin-block: 100px;
     margin-left: 200px;
     margin-right:200px;
+    display: block;
 }
 div p.boxH{
     text-align:center;

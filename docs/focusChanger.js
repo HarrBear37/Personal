@@ -1,7 +1,5 @@
 window.addEventListener('DOMContentLoaded',init,false);
 
-
-
 function init() {
     var buttons = document.getElementsByTagName("button")
     buttons[0].addEventListener('click', powerFocus, false)
@@ -9,6 +7,7 @@ function init() {
     buttons[2].addEventListener('click', colorBlue, false)
     buttons[3].addEventListener('click', colorGreen, false)
     buttons[4].addEventListener('click', widthThin, false)
+    buttons[5].addEventListener('click', widthNorm, false)
     buttons[6].addEventListener('click', widthThick, false)
     buttons[7].addEventListener('click', changeOrder, false)
     buttons[8].addEventListener('click', keepOrder, false)
@@ -17,30 +16,28 @@ function init() {
     function powerFocus() {
         var switches = document.getElementsByTagName( "button")
         for (var i = 0; i < switches.length; i++) {
-            if (switches[i].className == "on") {
-                switches[i].classList.remove("on");
-                switches[i].classList.add("off");
+            if (switches[i].className === "on") {
+                switches[i].classList.replace("on", "off")
                 }
             else {
-                if (switches[i].className == "off") {
-                    switches[i].classList.remove("off");
-                    switches[i].classList.add("on");
+                if (switches[i].className === "off") {
+                    switches[i].classList.replace("off", "on");
             }
             }
         }
     }
-
     function colorRed() {
     var paintRed = document.getElementsByTagName("button")
         for (var i = 0; i < paintRed.length; i++) {
-            if (paintRed[i].className == "n") {
-                paintRed[i].classList.remove("n");
-                paintRed[i].classList.add("red");
+            if (paintRed[i].className !== "red"  || paintRed[i].className !== "n") {
+                paintRed[i].classList.replace(paintRed[i].className, "n");
+            }
+            if (paintRed[i].className === "n") {
+                paintRed[i].classList.replace("n", "red");
             }
             else {
-                if (paintRed[i].className == "red") {
-                    paintRed[i].classList.remove("red");
-                    paintRed[i].classList.add("n");
+                if (paintRed[i].className === "red") {
+                    paintRed[i].classList.replace("red", "n");
                 }
             }
         }
@@ -48,14 +45,15 @@ function init() {
     function colorBlue() {
     var paintBlue = document.getElementsByTagName("button")
         for (var i = 0; i < paintBlue.length; i++) {
-            if (paintBlue[i].className == "n") {
-                paintBlue[i].classList.remove("n");
-                paintBlue[i].classList.add("blue");
+            if (paintBlue[i].className !== "blue" || paintBlue[i].className !== "n") {
+                paintBlue[i].classList.replace(paintBlue[i].className, "n");
+            }
+            if (paintBlue[i].className === "n") {
+                paintBlue[i].classList.replace("n", "blue");
             }
             else {
-                if (paintBlue[i].className == "blue") {
-                    paintBlue[i].classList.remove("blue");
-                    paintBlue[i].classList.add("n");
+                if (paintBlue[i].className === "blue") {
+                    paintBlue[i].classList.replace("blue", "n");
                 }
             }
         }
@@ -63,14 +61,15 @@ function init() {
     function colorGreen() {
     var paintGreen = document.getElementsByTagName("button")
         for (var i = 0; i < paintGreen.length; i++) {
-            if (paintGreen[i].className == "n") {
-                paintGreen[i].classList.remove("n");
-                paintGreen[i].classList.add("green");
+            if (paintGreen[i].className !== "green" || paintGreen[i].className !== "n") {
+                paintGreen[i].classList.replace(paintGreen[i].className, "n");
+            }
+            if (paintGreen[i].className === "n") {
+                paintGreen[i].classList.replace("n", "green");
             }
             else {
-                if (paintGreen[i].className == "green") {
-                    paintGreen[i].classList.remove("green");
-                    paintGreen[i].classList.add("n");
+                if (paintGreen[i].className === "green") {
+                    paintGreen[i].classList.remove("green", "n");
                 }
             }
         }
@@ -78,35 +77,42 @@ function init() {
     function widthThin() {
     var widthThin = document.getElementsByTagName("button")
         for(var i = 0; i < widthThin.length; i++) {
-            if (widthThin[i].className == "n") {
-                widthThin[i].classList.remove("n");
-                widthThin[i].classList.add("thin");
+            if (widthThin[i].className !== "thin" || widthThin[i].className !== "n") {
+                widthThin[i].classList.replace(widthThin[i].className, "n");
+            }
+            if (widthThin[i].className === "n") {
+                widthThin[i].classList.replace("n", "thin");
             }
             else {
-                if (widthThin[i].className == "thin") {
-                    widthThin[i].classList.remove("thin");
-                    widthThin[i].classList.add("n");
+                if (widthThin[i].className === "thin") {
+                    widthThin[i].classList.replace("thin", "n");
                 }
+            }
+        }
+    }
+    function widthNorm() {
+    var widthNorm = document.getElementsByTagName("button")
+        for(var i = 0; i < widthNorm.length; i++) {
+            if (widthNorm[i].className !== "n") {
+                widthNorm[i].classList.replace(widthNorm[i].className, "n");
             }
         }
     }
     function widthThick() {
     var widthThick = document.getElementsByTagName("button")
         for(var i = 0; i < widthThick.length; i++) {
-            if (widthThick[i].className == "n") {
-                widthThick[i].classList.remove("n");
-                widthThick[i].classList.add("thick");
+            if (widthThick[i].className !== "thick" || widthThick[i].className !== "n") {
+                widthThick[i].classList.replace(widthThick[i].className, "n");
+            }
+            if (widthThick[i].className === "n") {
+                widthThick[i].classList.replace("n", "thick");
             }
             else {
-                if (widthThick[i].className == "thick") {
-                    widthThick[i].classList.remove("thick");
-                    widthThick[i].classList.add("n");
+                if (widthThick[i].className === "thick") {
+                    widthThick[i].classList.replace("thick", "n");
                 }
             }
         }
-    }
-    function addOne(num) {
-    return num + 1;
     }
     function keepOrder() {
         const element = document.getElementById('H');
