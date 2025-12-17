@@ -14,8 +14,11 @@ function init() {
 }
     
     function powerFocus() {
-        var switches = document.getElementsByTagName( "button")
+        var switches = document.getElementsByTagName("button")
         for (var i = 0; i < switches.length; i++) {
+        if (switches[i].className !== "off") {
+            switches[i].classList.replace(switches[i].className, "on");
+        }
             if (switches[i].className === "on") {
                 switches[i].classList.replace("on", "off")
                 }

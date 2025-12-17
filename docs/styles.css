@@ -1,15 +1,6 @@
 body.h{
     background-color:#993333;
 }
-body.p{
-    background-color:#1a1a1a;
-}
-body.j{
-    background-color:#d9d9d9;
-}
-div.inIt {
-    margin-left:100px;
-}
 nav {
     margin: auto;
     display:flex;
@@ -23,26 +14,6 @@ nav a.h {
 }
 nav a.h:hover{
     background-color:#990000;
-}
-nav a.p {
-    color: white;
-    background-color:#000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-nav a.p:hover{
-    background-color:#404040;
-}
-nav a.j {
-    color: white;
-    background-color:#000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-nav a.j:hover{
-    background-color:#404040;
 }
 h1.h {
     text-align:center;
@@ -60,27 +31,6 @@ h2.h {
     border-style:outset;
     border-width: 3px;
     border-color:#cc7a00;
-}
-h1.p{
-    text-align:center;
-    color:#FFFFFF;
-}
-h2.p{
-    text-align:center;
-    color:#FFFFFF;
-}
-h1.j{
-    text-align:center;
-}
-h2.j{
-    text-align:left;
-    font-family: Garamond, regular;
-    margin-right:100px;
-    margin-left:100px;
-}
-hr.j{
-    margin-right:100px;
-    margin-left:100px;
 }
 p.basicB {
     font-size:18px;
@@ -107,31 +57,6 @@ div.textBoxH{
     margin-left: 200px;
     margin-right:200px;
 }
-div.textBoxP{
-    background-color:#000000;
-    text-align: left;
-    padding: 2em;
-    padding:3px 5px;
-    border-style:outset;
-    border-width: 3px;
-    border-color:#bfbfbf;
-    margin-block: 100px;
-    margin-left: 200px;
-    margin-right:200px;
-}
-div.textBoxJ{
-    background-color:#FFFFFF;
-    text-align: left;
-    padding: 2em;
-    padding:3px 5px;
-    border-style:outset;
-    border-width: 3px;
-    border-color:#bfbfbf;
-    margin-block: 100px;
-    margin-left: 200px;
-    margin-right:200px;
-    display: block;
-}
 div p.boxH{
     text-align:center;
     background-color:#e6e6e6;
@@ -141,46 +66,4 @@ div p.boxH{
     border-color:#cc7a00;
     margin-right:100px;
     margin-left:100px;
-}
-figure.p {
-    display:block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-img.picNorm {
-    width: 50%;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-img.picVert {
-    width: 35%;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-iframe {
-    width:560px;
-    height:315px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
-figcaption {
-    text-align:center;
-    font-family: Garamond, regular;
-}
-pre {
-    display:block;
-    background-color:#d9d9d9;
-    margin-left:100px;
-    margin-right:100px;
-}
-ul.j{
-    list-style-type: none;
-    margin-left: 100px;
-    font-family: Garamond, regular;
-    font-size: 18px;
 }

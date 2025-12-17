@@ -1,0 +1,74 @@
+body.j{
+    background-color:#d9d9d9;
+}
+div.inIt {
+    margin-left:100px;
+}
+div.textBoxJ{
+    background-color:#FFFFFF;
+    text-align: left;
+    padding: 2em;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#bfbfbf;
+    margin-block: 100px;
+    margin-left: 200px;
+    margin-right:200px;
+    display: block;
+}
+h1.j{
+    text-align:center;
+}
+h2.j{
+    text-align:left;
+    font-family: Garamond, regular;
+    margin-right:100px;
+    margin-left:100px;
+}
+hr.j{
+    margin-right:100px;
+    margin-left:100px;
+}
+ul.j{
+    list-style-type: none;
+    margin-left: 100px;
+    font-family: Garamond, regular;
+    font-size: 18px;
+}
+li.j{
+    
+}
+nav {
+    margin: auto;
+    display:flex;
+}
+nav a.j {
+    color: white;
+    background-color:#000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a.j:hover{
+    background-color:#404040;
+}
+p.basicW {
+    font-size:18px;
+    font-family: Garamond, regular;
+    margin-right:100px;
+    margin-left:100px;
+}
+pre.code {
+    display:block;
+    background-color:#d9d9d9;
+    margin-left:100px;
+    margin-right:100px;
+}
+code.text {
+    display:inline;
+    background-color:#e6e6e6;
+    padding:1px;
+    border-radius:6px;
+    font-size:16px;
+}

@@ -4,15 +4,15 @@
         <title>JavaScript</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link rel="stylesheet" type="text/css" href="JS_styles.css"/>
         <link rel="stylesheet" type="text/css" href="focusStyles.css"/>
         <script type="text/javascript" src="focusChanger.js"></script>
     </head>
     <body class="j">
         <nav>
-            <a href="index.html" class="p" tabindex="1" id="H">Home</a>
-            <a href="photoProject.html" class="p" tabindex="2" id="BF">Behrend Fields</a>
-            <a href="JS_research.html" class="p" tabindex="3" id="RS">Research</a>
+            <a href="index.html" class="j" tabindex="1" id="H">Home</a>
+            <a href="photoProject.html" class="j" tabindex="2" id="BF">Behrend Fields</a>
+            <a href="JS_research.html" class="j" tabindex="3" id="RS">Research</a>
         </nav>
         <div class="textBoxJ">
             <h1 class="j">Accessibility Issues With JavaScript</h1>
@@ -30,14 +30,14 @@
             <hr class="j">
             <p class="basicW">Plenty of frustration comes from focus management. This is caused when web designers remove focus indicators from the browser. </p>
             <p class="basicW">Example:</p>
-            <pre>:focus {
+            <pre class="code">:focus {
 outline: none;
 }</pre>
             <div class="inIt">
                 <button type="button" class="on" tabindex="11" id="TO">Turn off</button>
             </div>
             <p class="basicW">Just keep it on! It's a simple fix. It can further assist by changing the color or thickness of the bubble.</p>
-            <pre>
+            <pre class="code">
 .red:focus {
     outline: 4px solid red
 }
@@ -50,16 +50,17 @@ outline: none;
                 <button type="button" class="n" tabindex="16" id="RegB">Regular</button>
                 <button type="button" class="n" tabindex="17" id="ThB">Thick</button>
             </div>
-            <p class="basicW">For further information about <code>:focus</code> go to <a href="https://www.sarasoueidan.com/blog/focus-indicators" tabindex="18" id="WCAG">A guide to designing accessible, WCAG-conformant focus indicators</a>
+            <p class="basicW">For further information about <code class="text">:focus</code> go to <a href="https://www.sarasoueidan.com/blog/focus-indicators" tabindex="18" id="WCAG">A guide to designing accessible, WCAG-conformant focus indicators</a>
             <h2 class="j" id="FT" tabindex="19">Focus Traps</h2>
             <hr class="j">
-            <p class="basicW">Focus Traps occurs when readers are unable to leave a modal. But without proper testing, the user can leave the modal. To prevent this, the designer must test the site by tabbing through it. A proper modal will return focus to the first element of the site. </p>
+            <p class="basicW">Focus Traps occurs when readers are unable to leave a modal. A modal is a pop-up that prevents the user from interacting with rest of the site. The user must complete the requirements of the modal or close it. It could be a news site advertising a subscription.</p>
+            <p class="basicW">Without proper testing, the user can leave the modal. To prevent this, the designer must test the site by tabbing through it. A proper modal will return focus to the first element of the site or back in the place they last were.</p>
             <h2 class="j" id="DR" tabindex="20">Dynamic Refresh</h2>
             <hr class="j">
-            <p class="basicW">During the development stage, keep in mind what is focused on first after a dynamic refresh. This could be the title of an article, modal, or notification. As always, issues may arise. The focus must change to the most relevant content on the page.  </p>
+            <p class="basicW">During the development stage, keep in mind what is focused on first after a dynamic refresh. This could be the title of an article, modal, or notification. To put is simply, the focus must change to the most relevant content on the page.  </p>
             <h2 class="j" id="FO" tabindex="21">Focus Order</h2>
             <hr class="j"> 
-            <p class="basicW">While tabbing through a page, there should be a flow to it. To prevent confusion, the designer must make the Focus Order go through the most important elements. Keep it predictable! </p>
+            <p class="basicW">While tabbing through a page, there should be a flow to it. Practice by tabbingTo prevent confusion, the designer must make the Focus Order go through the most important elements. Keep it predictable! </p>
             <p class="basicW">The first button will change the Focus Order. And the latter will return it to the original.</p>
             <div class="inIt">
                 <button type="button" id="wrong" tabindex="22">Wrong</button>
@@ -69,6 +70,8 @@ outline: none;
             <hr class="j">
             <p class="basicW">It is important to keep the reader in mind when creating a site. These simple solutions bring accessibility and appreciation to keyboard users and screen readers. The Web has so much valuable information, why should we deny it to those with disabilities? </p>
             <p class="basicW"><a href="https://webaim.org" tabindex="25" id="WAIM2">WebAIM</a> is a great website to learn about web accessibility. It not only teaches focus indicators, but also many other ways to keep web accessibility in mind.</p>
+            <p class="basicW">This web guide was not made with AI. Yippee!</p>
         </div>
+    <footer><a href="https://github.com/HarrBear37/Personal">Accessibility Issues With JavaScript</a> © 2025 by <a href="https://github.com/HarrBear37/">Harry Bartolotti</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"></footer>
     </body>
 </html>
