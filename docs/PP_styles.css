@@ -4,7 +4,6 @@ body.p{
 div.textBoxP{
     background-color:#000000;
     text-align: left;
-    padding: 2em;
     padding:3px 5px;
     border-style:outset;
     border-width: 3px;
@@ -71,4 +70,14 @@ p.basicB {
     color: #FFFFFF;
     margin-right:100px;
     margin-left:100px;
+}
+footer.p {
+    background-color:#FFFFFF;
+    text-align: left;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#bfbfbf;
+    margin-left: 200px;
+    margin-right:200px;
 }

@@ -7,7 +7,6 @@ div.inIt {
 div.textBoxJ{
     background-color:#FFFFFF;
     text-align: left;
-    padding: 2em;
     padding:3px 5px;
     border-style:outset;
     border-width: 3px;
@@ -29,6 +28,16 @@ h2.j{
 hr.j{
     margin-right:100px;
     margin-left:100px;
+}
+footer.j {
+    background-color:#FFFFFF;
+    text-align: left;
+    padding:3px 5px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#bfbfbf;
+    margin-left: auto;
+    margin-right:200px;
 }
 ul.j{
     list-style-type: none;
